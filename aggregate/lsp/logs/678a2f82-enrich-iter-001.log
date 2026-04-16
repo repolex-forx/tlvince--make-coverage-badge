@@ -1,0 +1,14 @@
+[2026-04-16T10:55:04Z] === ENRICH ITERATION 1 START | repo=tlvince/make-coverage-badge sha=678a2f82 ===
+[2026-04-16T10:55:04Z] [iter=1] PHASE START: enrich repo=tlvince/make-coverage-badge sha=678a2f82 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/678a2f82-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/678a2f82dab365f0436d514f695a61189e1f6ac7.nq.gz
+[2026-04-16T10:55:08Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-16T10:55:08Z] [iter=1] AST store loaded triples=4167 load_secs=0 mem_mb=90 MB
+[2026-04-16T10:55:08Z] [iter=1] Step 2: Finding LSP targets mem_mb=90 MB
+[2026-04-16T10:55:08Z] [iter=1] LSP targets found call_sites=45 imports=0 extends=0 implements=0 secs=0
+[2026-04-16T10:55:08Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=90 MB
+[2026-04-16T10:55:08Z] [iter=1] Position index built positions=281 nodes_with_types=339 secs=0 mem_mb=90 MB
+[2026-04-16T10:55:08Z] [iter=1] Step 3: Starting LSP resolution mem_mb=90 MB already_completed_types=[] already_completed_files=0
+[2026-04-16T10:55:08Z] [iter=1] Resolving target type target_type=call_site count=45
+[2026-04-16T10:55:10Z] [iter=1] Target type resolved target_type=call_site resolved=6 errors=28 secs=2 mem_mb=90 MB
+[2026-04-16T10:55:11Z] [iter=1] Step 5: Writing final enrichment file triples=529
+[2026-04-16T10:55:11Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/678a2f82dab365f0436d514f695a61189e1f6ac7.nq.gz size_kb=6
+[2026-04-16T10:55:11Z] [iter=1] PHASE END: enrich elapsed_s=7 elapsed_min=0.1 total_triples=529
